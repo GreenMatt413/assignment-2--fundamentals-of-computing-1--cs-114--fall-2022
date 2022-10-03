@@ -11,14 +11,19 @@ public class Assignment2 {
 
     topOfDiamond = 1;
     while(topOfDiamond <= diameter){
-    System.out.println ("*" + topOfDiamond);
-    topOfDiamond +=2;
+        for (int i=0; i<topOfDiamond; i++){
+        System.out.print("*");
+        }
+        topOfDiamond +=2; System.out.print("\n");
     }
     topOfDiamond -=4; //sets topOfDiamond value equal to diameter
     bottomOfDiamond = 1;
     while(topOfDiamond >= bottomOfDiamond){
-    System.out.println ("*" + topOfDiamond);
-    topOfDiamond -=2;
+        for (int i=0; i<topOfDiamond; i++){
+    System.out.print("*");
+        }
+    topOfDiamond -=2; System.out.print("\n");
+    }
+
     }
     }
-}
