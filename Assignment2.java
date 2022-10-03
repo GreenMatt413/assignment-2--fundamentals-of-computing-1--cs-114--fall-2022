@@ -10,10 +10,10 @@ public class Assignment2 {
     diameter = scan.nextInt();
 
     topOfDiamond = 1;
-    while(topOfDiamond <= diameter);
+    while(topOfDiamond <= diameter);{
     System.out.println ("*" + topOfDiamond);
     topOfDiamond +=2;
-
+    }
 
     System.out.println("test to see if the program finishes");
     }
