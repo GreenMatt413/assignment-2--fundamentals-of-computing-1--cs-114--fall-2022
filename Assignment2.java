@@ -9,6 +9,7 @@ public class Assignment2 {
     System.out.println("Enter a number ");
     diameter = scan.nextInt();
 
+    if (diameter % 2 >= 1) {
     topOfDiamond = 1;
     while(topOfDiamond <= diameter){
         for (int i=0; i<topOfDiamond; i++){
@@ -24,6 +25,22 @@ public class Assignment2 {
         }
     topOfDiamond -=2; System.out.print("\n");
     }
+    }
+
+
+    else {
+    System.out.println("*");
+    topOfDiamond = 2;
+    while(topOfDiamond <= diameter){
+        for (int i=0; i<topOfDiamond; i++){
+        System.out.print("*");
+        }
+        topOfDiamond +=2; System.out.print("\n");
 
     }
+
+
+
     }
+}
+}
