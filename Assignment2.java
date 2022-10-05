@@ -8,7 +8,8 @@ public class Assignment2 {
 
     System.out.println("Enter a number ");
     diameter = scan.nextInt();
-    if (diameter % 2 >= 1) {
+    if (diameter % 2 >= 1)
+    {
     topOfDiamond = 1;
     numberOfSpaces = diameter;
     for (int j=0; j<(numberOfSpaces/2);j++){
@@ -21,7 +22,7 @@ public class Assignment2 {
         topOfDiamond +=2; numberOfSpaces -=2; System.out.print("\n");
     for (int k=0; k<(numberOfSpaces/2);k++){
         System.out.print(" ");
-    }
+        }
     }
 
     topOfDiamond -=4; //sets topOfDiamond value equal to diameter
@@ -35,22 +36,22 @@ public class Assignment2 {
     topOfDiamond -=2; numberOfSpaces +=2; System.out.print("\n");
     for (int k=0; k<(numberOfSpaces/2);k++){
         System.out.print(" ");
-    }
+        }
     }
     }
 
 
-    else {
-
+    else
+    {
     topOfDiamond = 2;
     numberOfSpaces = diameter;
     for (int f=0; f<(numberOfSpaces-1);f++){
         System.out.print(" ");
-    }
+        }
     System.out.println("* ");
     for (int j=0; j<(numberOfSpaces-2);j++){
         System.out.print(" ");
-    }
+        }
     while(topOfDiamond <= diameter){
         for (int i=0; i<topOfDiamond; i++){
         System.out.print("* ");
@@ -71,9 +72,9 @@ public class Assignment2 {
     topOfDiamond -=2; numberOfSpaces +=2; System.out.print("\n");
     for (int k=0; k<(numberOfSpaces-1);k++){
         System.out.print(" ");
-    }
+        }
     }
     System.out.println("*");
     }
-}
+    }
 }
